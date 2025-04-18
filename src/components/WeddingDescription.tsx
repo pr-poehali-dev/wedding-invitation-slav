@@ -1,4 +1,4 @@
-import { Tent, Droplets, Sun } from "lucide-react";
+import { Tent, Droplets, Sun, MapPin } from "lucide-react";
 
 const WeddingDescription = () => {
   return (
@@ -26,8 +26,21 @@ const WeddingDescription = () => {
           <div>
             <h3 className="text-xl text-slavic-secondary mb-2">Единение с природой</h3>
             <p className="text-slavic-dark">
-              Праздник пройдет на берегу живописной реки, где чистый воздух,
+              Праздник пройдет на берегу живописной реки Ворона, где чистый воздух,
               журчание воды и пение птиц создадут особую атмосферу для нашего особенного дня.
+            </p>
+          </div>
+        </div>
+        
+        <div className="flex items-start">
+          <div className="bg-slavic/20 p-3 rounded-full mr-4">
+            <MapPin className="h-6 w-6 text-slavic-secondary" />
+          </div>
+          <div>
+            <h3 className="text-xl text-slavic-secondary mb-2">Место проведения</h3>
+            <p className="text-slavic-dark">
+              Мы приглашаем вас в село Ленинское на берегу реки Ворона, где вековые деревья, 
+              цветущие луга и ласковая вода создают прекрасную картину русской природы.
             </p>
           </div>
         </div>
