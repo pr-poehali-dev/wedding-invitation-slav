@@ -1,12 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import WeddingHeader from "@/components/WeddingHeader";
+import DateSection from "@/components/DateSection";
+import WeddingDescription from "@/components/WeddingDescription";
+import DressCodeSection from "@/components/DressCodeSection";
+import RsvpSection from "@/components/RsvpSection";
+import Footer from "@/components/Footer";
+import SlavicOrnament from "@/components/SlavicOrnament";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
+    <div className="container mx-auto py-8 px-4">
+      <SlavicOrnament position="top" className="mb-6" />
+      
+      <div className="max-w-4xl mx-auto">
+        <WeddingHeader />
+        <DateSection />
+        <WeddingDescription />
+        <DressCodeSection />
+        <RsvpSection />
+        <Footer />
       </div>
+      
+      <SlavicOrnament position="bottom" className="mt-6" />
     </div>
   );
 };
