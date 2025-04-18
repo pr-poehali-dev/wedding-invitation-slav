@@ -12,7 +12,7 @@
 
 @layer base {
   :root {
-    --background: 45 37% 94%;
+    --background: 0 100% 50%;
     --foreground: 32 40% 25%;
 
     --card: 45 37% 94%;
@@ -81,7 +81,7 @@
 
   body {
     @apply bg-background text-foreground bg-[url('/images/paper-texture.jpg')] bg-repeat;
-    background-blend-mode: overlay;
+    background-blend-mode: multiply;
   }
 
   h1, h2, h3, h4 {
