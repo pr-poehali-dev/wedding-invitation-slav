@@ -12,7 +12,7 @@
 
 @layer base {
   :root {
-    --background: 0 100% 50%;
+    --background: 45 37% 94%;
     --foreground: 32 40% 25%;
 
     --card: 45 37% 94%;
@@ -80,8 +80,7 @@
   }
 
   body {
-    @apply bg-background text-foreground bg-[url('/images/paper-texture.jpg')] bg-repeat;
-    background-blend-mode: multiply;
+    @apply bg-background text-foreground bg-gradient-to-br from-slavic-light to-slavic-accent/10;
   }
 
   h1, h2, h3, h4 {
