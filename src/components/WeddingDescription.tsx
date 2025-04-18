@@ -1,4 +1,4 @@
-import { Tent, Wave, Sun } from "lucide-react";
+import { Tent, Droplets, Sun } from "lucide-react";
 
 const WeddingDescription = () => {
   return (
@@ -21,7 +21,7 @@ const WeddingDescription = () => {
         
         <div className="flex items-start">
           <div className="bg-slavic/20 p-3 rounded-full mr-4">
-            <Wave className="h-6 w-6 text-slavic-secondary" />
+            <Droplets className="h-6 w-6 text-slavic-secondary" />
           </div>
           <div>
             <h3 className="text-xl text-slavic-secondary mb-2">Единение с природой</h3>
